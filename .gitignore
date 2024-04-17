@@ -1,69 +1,69 @@
 # Standard GITIGNORE file for SvelteKit projects
-# .DS_Store
-# node_modules
-# /build
-# /.svelte-kit
-# /package
-# .env
-# .env.*
-# !.env.example
-# vite.config.js.timestamp-*
-# vite.config.ts.timestamp-*
-# ---------------
-# Ignore node_modules
-node_modules/
-
-# Ignore build output
-build/
-dist/
-public/
-
-# Ignore IDE and editor specific files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Ignore logs and temporary files
-*.log
-*.tmp
-*.temp
-*.swp
-
-# Ignore OS generated files
 .DS_Store
-Thumbs.db
-
-# Ignore npm lock files
-package-lock.json
-yarn.lock
-
-# Ignore test coverage reports
-coverage/
-
-# Ignore environment variables file
+node_modules
+/build
+/.svelte-kit
+/package
 .env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# ---------------
+# # Ignore node_modules
+# node_modules/
 
-# Ignore compiled JavaScript files
-*.js
+# # Ignore build output
+# build/
+# dist/
+# public/
 
-# Ignore TypeScript build output
-*.d.ts
+# # Ignore IDE and editor specific files
+# .vscode/
+# .idea/
+# *.sublime-project
+# *.sublime-workspace
 
-# Ignore Playwright config file
-playwright.config.ts
+# # Ignore logs and temporary files
+# *.log
+# *.tmp
+# *.temp
+# *.swp
 
-# Ignore Visual Testing with Playwright screenshots and videos
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.bmp
-*.webp
-*.avi
-*.mp4
-*.mpeg
-*.mkv
-*.webm
+# # Ignore OS generated files
+# .DS_Store
+# Thumbs.db
 
-# Ignore any other files or directories not related to your component library
+# # Ignore npm lock files
+# package-lock.json
+# yarn.lock
+
+# # Ignore test coverage reports
+# coverage/
+
+# # Ignore environment variables file
+# .env
+
+# # Ignore compiled JavaScript files
+# *.js
+
+# # Ignore TypeScript build output
+# *.d.ts
+
+# # Ignore Playwright config file
+# playwright.config.ts
+
+# # Ignore Visual Testing with Playwright screenshots and videos
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.bmp
+# *.webp
+# *.avi
+# *.mp4
+# *.mpeg
+# *.mkv
+# *.webm
+
+# # Ignore any other files or directories not related to your component library
