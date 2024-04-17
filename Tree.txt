@@ -1,0 +1,25 @@
+├── .env
+├── .eslintignore
+├── .eslintrc.cjs
+├── .prettierignore
+├── .prettierrc
+├── package-lock.json
+├── package.json
+├── playwright.config.ts
+├── README.md
+├── src
+│   ├── app.d.ts
+│   ├── app.html
+│   ├── index.test.ts
+│   ├── lib
+│   │   ├── components
+│   │   └── index.ts
+│   └── routes
+│       └── +page.svelte
+├── static
+│   └── favicon.png
+├── svelte.config.js
+├── tests
+│   └── test.ts
+├── tsconfig.json
+└── vite.config.ts
