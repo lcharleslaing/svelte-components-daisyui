@@ -1,5 +1,6 @@
 <script>
 	import settings from '$lib/settings';
+	import CallNowButton from '../CallNowButton.svelte';
 	import TgyLogo from '../TgyLogo.svelte';
 </script>
 
@@ -20,7 +21,8 @@
 	</nav>
 	<aside>
 		<!-- Copyright -->
+		<CallNowButton />
 		<p>{settings.copyRight}</p>
-		<TgyLogo height="24" />
+		<TgyLogo width="24" />
 	</aside>
 </footer>

@@ -3,7 +3,10 @@
 	import { onDestroy } from 'svelte';
 
 	let themeColor = '';
-	export let height = '12';
+	/**
+	 * @type {any}
+	 */
+	export let width = 72;
 
 	// Update the themeColor when the selectedTheme changes
 	const unsubscribe = selectedTheme.subscribe((value) => {
@@ -16,9 +19,9 @@
 	});
 </script>
 
-<div>
+<div class="w-{width} mx-auto flex items-center justify-center">
 	<svg
-		class="h-{height} text-current"
+		class="h-auto text-current max-w-{width}"
 		fill="currentColor"
 		version="1.1"
 		id="Layer_1"
@@ -1897,13 +1900,3 @@ z"
 		/>
 	</svg>
 </div>
-
-<style>
-	:global(svg) {
-		transition: fill 0.3s ease;
-	}
-	#Layer_1 {
-		display: block;
-		margin: auto;
-	}
-</style>

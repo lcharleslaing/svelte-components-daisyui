@@ -44,7 +44,7 @@
 	});
 </script>
 
-<div class="navbar bg-base-100">
+<div class="navbar sticky top-0 bg-base-100 shadow">
 	<div class="flex-none">
 		<label for="left-drawer" class="btn btn-square btn-ghost">
 			<svg

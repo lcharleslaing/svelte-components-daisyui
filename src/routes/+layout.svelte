@@ -14,7 +14,6 @@
 	<NavbarLeftRightDrawers />
 	<div class="z-index min-h-screen">
 		<slot class="bg-black" />
-		<CallNowButton />
 	</div>
 	<Footer />
 	<BottomNavbar />
