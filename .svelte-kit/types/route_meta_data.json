@@ -1,3 +1,17 @@
 {
-	"/": []
+	"/": [],
+	"/about": [],
+	"/blog": [],
+	"/contact": [],
+	"/inspections": [],
+	"/promotions": [],
+	"/services": [],
+	"/services/decks": [],
+	"/services/gutters": [],
+	"/services/insulation": [],
+	"/services/masonry": [],
+	"/services/roofing": [],
+	"/services/siding": [],
+	"/services/windows": [],
+	"/settings": []
 }
