@@ -25,7 +25,7 @@
 	});
 </script>
 
-<div class="mt-6 text-center">
+<div class="mt-12 text-center">
 	<h1 class="text-4xl font-extrabold">{pageTitle}</h1>
 	<!-- <TgyLogo height="48" /> -->
 </div>
