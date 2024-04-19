@@ -5,7 +5,7 @@
 export default {
 	businessName: 'TG & Y Construction',
 	businessAddress: '123 Main St.\nSpringfield, IL 62701',
-	businessPhone: '217-555-5555',
+	businessPhone: '5175888248',
 	businessEmail: 'email@tgyconstruction.com',
 	businessHours: 'Mon-Fri 8am-5pm',
 	businessWebsite: 'http://localhost:5173',
