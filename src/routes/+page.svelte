@@ -3,7 +3,7 @@
 	import HomePageServiceCard from '$lib/components/HomePageServiceCard.svelte';
 	import ImageChangeWithOneText from '$lib/components/ImageChangeWithOneText.svelte';
 	import InspectionCard from '$lib/components/InspectionCard.svelte';
-	import RequestQuoteCard from '$lib/components/RequestQuoteCard.svelte';
+	import RequestQuoteCard from '$lib/components/ServiceIcons.svelte';
 	import TgyLogo from '$lib/components/TgyLogo.svelte';
 	import { selectedTheme } from '$lib/theme';
 	import content_settings from '$lib/settings/content_settings';
@@ -25,7 +25,7 @@
 
 <div class="">
 	<HomePageBanner />
-	<RequestQuoteCard />
+	<!-- <RequestQuoteCard /> -->
 
 	<!-- Iterate over all services and render HomePageServiceCard for each service -->
 	{#each serviceKeys as service}
