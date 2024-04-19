@@ -18,7 +18,7 @@ function isLocalStorageAvailable() {
 
 // Initialize the selected theme with the default theme or the one from local storage
 export const selectedTheme = writable(
-	isLocalStorageAvailable() ? localStorage.getItem('theme') || settings.defaultTheme : 'lofi'
+	isLocalStorageAvailable() ? localStorage.getItem('theme') || 'light' : 'lofi'
 );
 
 // Subscribe to changes in the selected theme and update local storage
