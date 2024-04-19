@@ -1,6 +1,6 @@
 export default {
 	homePageBannerText: {
-		title: 'Welcome to TG & Y Construction',
+		title: 'Welcome!',
 		description:
 			"Hometown professionalism at it's best. We specialize in residential and commercial construction. We are licensed and insured. Call us today for a free estimate.",
 		image: ''
@@ -62,7 +62,7 @@ export default {
 			description:
 				'TG & Y Construction has been the top name in construction business for homeowners in for minor repairs and maintenance to complete tear offs and rebuilds, our experienced professionals will complete your roofing project with a high standard of quality to ensure that your home is completely protected from even the harshest Michigan weather.',
 			image: 'https://hixonsroofing.com/wp-content/uploads/2023/04/residential-roof-shingles.jpg',
-			url: '/services/siding',
+			url: '/services/roofing',
 			buttonText: 'Learn More...'
 		},
 		siding: {

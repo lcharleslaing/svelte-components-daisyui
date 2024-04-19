@@ -24,6 +24,7 @@
 </script>
 
 <div class="">
+	<TgyLogo />
 	<HomePageBanner />
 	<!-- <RequestQuoteCard /> -->
 
