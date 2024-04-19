@@ -6,7 +6,7 @@
 
 <!-- <PageTitle /> -->
 <div class="mx-auto sm:w-3/4 md:w-3/4 lg:flex">
-	<TgyLogo />
+	<!-- <TgyLogo /> -->
 	<ImageChangeWithOneText />
 	<ImageChangeWithOneText />
 	<ImageChangeWithOneText />
