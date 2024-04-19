@@ -44,7 +44,10 @@
 	});
 </script>
 
-<div class="navbar sticky top-0 bg-base-100 shadow">
+<div class="navbar sticky top-0 z-50 bg-base-100 shadow">
+	<div class="drawer-content">
+		<!-- Page content here -->
+	</div>
 	<div class="flex-none">
 		<label for="left-drawer" class="btn btn-square btn-ghost">
 			<svg
@@ -86,9 +89,9 @@
 <div class="drawer">
 	<input id="left-drawer" type="checkbox" class="drawer-toggle" hidden />
 	<div class="drawer-content">
-		<slot />
+		<!-- Page content here -->
 	</div>
-	<div class="drawer-side">
+	<div class="drawer-side z-50">
 		<label for="left-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 		<ul class="menu min-h-full w-60 bg-base-200 p-4 text-base-content">
 			<!-- Sidebar content here -->
@@ -118,11 +121,9 @@
 	</div>
 </div>
 
-<div class="drawer drawer-end">
+<div class="drawer drawer-end z-50">
 	<input id="right-drawer" type="checkbox" class="drawer-toggle" hidden />
-	<div class="drawer-content">
-		<slot />
-	</div>
+
 	<div class="drawer-side">
 		<label for="right-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
 		<ul class="menu min-h-full w-60 bg-base-200 p-4 text-base-content">

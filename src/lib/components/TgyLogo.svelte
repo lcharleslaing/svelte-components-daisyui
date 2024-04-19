@@ -6,7 +6,7 @@
 	/**
 	 * @type {any}
 	 */
-	export let width = 72;
+	export let width = 60;
 
 	// Update the themeColor when the selectedTheme changes
 	const unsubscribe = selectedTheme.subscribe((value) => {

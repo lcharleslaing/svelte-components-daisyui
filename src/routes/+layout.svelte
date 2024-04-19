@@ -1,8 +1,6 @@
 <script>
-	import CallNowButton from './../lib/components/CallNowButton.svelte';
 	// import settings from '$lib/settings';
 	import '../app.pcss';
-	import Navbar from '$lib/components/Navbar/Navbar.svelte';
 	import Footer from '$lib/components/Navbar/Footer.svelte';
 	import { selectedTheme } from '$lib/theme';
 	import BottomNavbar from '$lib/components/BottomNavbar.svelte';
@@ -13,7 +11,7 @@
 	<!-- <Navbar /> -->
 	<NavbarLeftRightDrawers />
 	<div class="z-index min-h-screen">
-		<slot class="bg-black" />
+		<slot />
 	</div>
 	<Footer />
 	<BottomNavbar />
