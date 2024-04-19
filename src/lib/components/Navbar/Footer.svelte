@@ -4,7 +4,7 @@
 	import TgyLogo from '../TgyLogo.svelte';
 </script>
 
-<footer class="footer footer-center sticky rounded p-10 text-base-content">
+<footer class="footer footer-center sticky rounded p-20 text-base-content">
 	<nav class="mx-auto flex flex-wrap justify-center">
 		{#each settings.mainMenuLinks as link}
 			<a href={link.href} class="link-hover link">{link.label}</a>
@@ -23,6 +23,6 @@
 		<!-- Copyright -->
 		<CallNowButton />
 		<p>{settings.copyRight}</p>
-		<TgyLogo width="24" />
+		<TgyLogo width="40" />
 	</aside>
 </footer>

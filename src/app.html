@@ -6,18 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
-	<script>
-		import { selectedTheme } from './lib/theme.js'; // Import the theme store
-
-		// Initialize currentTheme with the initial value from the theme store
-		let currentTheme;
-
-		// Subscribe to changes in the theme store
-		selectedTheme.subscribe((value) => {
-			currentTheme = value;
-			document.documentElement.setAttribute('data-theme', currentTheme);
-		});
-	</script>
 
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>

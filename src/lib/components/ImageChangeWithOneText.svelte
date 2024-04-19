@@ -40,10 +40,10 @@
 </script>
 
 <div class="z-0 flex justify-center">
-	<div class="card">
+	<div class="">
 		<!-- add image -->
-		<div class="image m-6 flex flex-col justify-center">
-			<img src="windows.png" alt="Windows" class="rounded-xl shadow-md" style="max-width: 100%;" />
+		<div class="image m-2 flex flex-col justify-center">
+			<img src="windows.png" alt="Windows" class="rounded-xl shadow-md" />
 
 			<!-- add overlay -->
 			<div class="image-overlay my-4 text-center">

@@ -7,15 +7,19 @@
 	import NavbarLeftRightDrawers from '$lib/components/NavbarLeftRightDrawers.svelte';
 </script>
 
-<div class="z-index" data-theme={$selectedTheme}>
-	<!-- <Navbar /> -->
-	<NavbarLeftRightDrawers />
-	<div class="z-index min-h-screen">
-		<slot />
-	</div>
-	<Footer />
-	<BottomNavbar />
-</div>
+<html lang="en" data-theme={$selectedTheme}>
+	<body>
+		<div class="z-index">
+			<!-- <Navbar /> -->
+			<NavbarLeftRightDrawers />
+			<div class="z-index min-h-screen">
+				<slot />
+			</div>
+			<Footer />
+			<BottomNavbar />
+		</div>
+	</body>
+</html>
 
 <style>
 	/* Set z-index for dropdown menus */

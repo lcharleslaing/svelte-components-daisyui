@@ -19,7 +19,7 @@
 	});
 </script>
 
-<div class="w-{width} mx-auto flex items-center justify-center">
+<div class="w-{width} mx-auto flex h-20 items-center justify-center">
 	<svg
 		class="h-auto text-current max-w-{width}"
 		fill="currentColor"
