@@ -1,5 +1,5 @@
 <script>
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	import { selectedTheme } from '$lib/theme';
 	import PageTitle from '$lib/components/PageTitle.svelte';
 

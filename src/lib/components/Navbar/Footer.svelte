@@ -1,5 +1,5 @@
 <script>
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	import CallNowButton from '../CallNowButton.svelte';
 	import TgyLogo from '../TgyLogo.svelte';
 </script>
@@ -24,5 +24,6 @@
 		<CallNowButton />
 		<p>{settings.copyRight}</p>
 		<TgyLogo width="40" />
+		<h1 class="text-center text-2xl font-bold">A Tradition of Excellence</h1>
 	</aside>
 </footer>

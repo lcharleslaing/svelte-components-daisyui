@@ -1,5 +1,5 @@
 <script lang="ts">
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	const leftMenuItems = settings.mainMenuLinks;
 	const rightMenuItems = settings.serviceAreas;
 	const social = settings.socialMediaLinks;

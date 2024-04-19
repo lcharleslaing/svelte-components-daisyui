@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import { selectedTheme } from '$lib/theme';
 	import TgyLogo from './TgyLogo.svelte';
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 
 	// Extract the devmode value from the import.meta.env object
 	const devmode = import.meta.env.VITE_DEV === 'true';

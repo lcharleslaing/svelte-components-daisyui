@@ -1,5 +1,6 @@
 // src/lib/theme.js
 import { writable } from 'svelte/store';
+import settings from './settings/settings.js';
 
 // Function to check if local storage is available in the browser
 function isLocalStorageAvailable() {
@@ -17,7 +18,7 @@ function isLocalStorageAvailable() {
 
 // Initialize the selected theme with the default theme or the one from local storage
 export const selectedTheme = writable(
-	isLocalStorageAvailable() ? localStorage.getItem('theme') || 'light' : 'light'
+	isLocalStorageAvailable() ? localStorage.getItem('theme') || settings.defaultTheme : 'lofi'
 );
 
 // Subscribe to changes in the selected theme and update local storage

@@ -3,7 +3,6 @@
 // const devmode = import.meta.env.VITE_DEV;
 
 export default {
-	// Site title
 	businessName: 'TG & Y Construction',
 	businessAddress: '123 Main St.\nSpringfield, IL 62701',
 	businessPhone: '217-555-5555',
@@ -12,11 +11,20 @@ export default {
 	businessWebsite: 'http://localhost:5173',
 	businessLogo: 'LOGO_SVG.svg',
 	copyRight: '© 2021-2024 TG & Y Construction. All rights reserved.',
-	discountCodes: [
-		{ code20: 'LUCKY20', discount20: 20 },
-		{ code10: 'LUCKY10', discount10: 10 },
-		{ code5: 'LUCKY5', discount5: 5 }
-	],
+	discountCodes: {
+		code20: {
+			name: 'LUCKY20',
+			value: 20
+		},
+		code10: {
+			name: 'LUCKY10',
+			value: 10
+		},
+		code5: {
+			name: 'LUCKY5',
+			value: 5
+		}
+	},
 	mainMenuLinks: [
 		{ label: 'Home', href: '/' },
 		{ label: 'About', href: '/about' },
@@ -75,6 +83,7 @@ export default {
 	],
 	// Navbar Right Button
 	navbarButton: { label: 'Contact', href: '/contact' },
+	defaultTheme: 'lofi',
 	// Site colors
 	colors: {},
 	// Site themes

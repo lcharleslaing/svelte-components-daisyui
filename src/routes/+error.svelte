@@ -1,5 +1,5 @@
 <script context="module">
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	// import { page } from '$app/stores';
 	import { selectedTheme } from '$lib/theme.js';
 </script>

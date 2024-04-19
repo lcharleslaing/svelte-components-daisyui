@@ -1,7 +1,7 @@
 // hooks.ts
 
 import type { Handle } from '@sveltejs/kit';
-import settings from '$lib/settings';
+import settings from '$lib/settings/settings';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	// Access the request from the event object

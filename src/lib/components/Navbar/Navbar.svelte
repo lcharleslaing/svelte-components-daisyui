@@ -1,6 +1,6 @@
 <script>
 	import PhoneIcon from './PhoneIcon.svelte';
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	import { onMount } from 'svelte';
 	import SettingsIcon from './SettingsIcon.svelte';
 	import ContactIcon from './ContactIcon.svelte';

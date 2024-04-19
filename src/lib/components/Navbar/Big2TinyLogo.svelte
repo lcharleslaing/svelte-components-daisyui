@@ -1,5 +1,5 @@
 <script>
-	import settings from '$lib/settings';
+	import settings from '$lib/settings/settings';
 	const site_name = settings.businessName;
 </script>
 
