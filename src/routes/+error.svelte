@@ -1,6 +1,6 @@
 <script context="module">
 	import settings from '$lib/settings/settings';
-	// import { page } from '$app/stores';
+	import { page } from '$app/stores';
 	import { selectedTheme } from '$lib/theme.js';
 </script>
 
@@ -14,9 +14,9 @@
 
 	<div class="mx-6 flex items-center justify-center">
 		<div class="flex flex-col items-center justify-center">
-			<!-- <p class="my-6 text-xl">
-			{$page.status}: {$page.error?.message}
-		</p> -->
+			<p class="my-6 text-xl">
+				{$page.status}: {$page.error?.message}
+			</p>
 			<h1 class="mt-6 text-left text-2xl text-orange-600">
 				Hi There. If you are seeing this page, it's because we are currently working on it to make
 				it a better viewing experience for you or we are repairing something that has been reported

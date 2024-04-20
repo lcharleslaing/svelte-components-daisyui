@@ -9,7 +9,7 @@
 		a complimentary inspection before we even start the work, so you know what to expect. We are
 		even available for emergency issues that simply cannot wait. Call us when you need us!
 	</p>
-	<div class="text-right">
+	<div class="text-center">
 		<a href="tel:517-588-8428" class="btn btn-primary mx-auto">Give US a Call!</a>
 	</div>
 </div>

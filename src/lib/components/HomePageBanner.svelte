@@ -1,5 +1,6 @@
 <script>
 	import content_settings from '$lib/settings/content_settings';
+	import TgyLogo from './TgyLogo.svelte';
 </script>
 
 <div class="relative m-1">
@@ -14,12 +15,14 @@
 	</div>
 	<!-- Overlay container -->
 	<div class="absolute inset-0 flex items-center justify-center">
-		<div class="w-3/4 bg-black bg-opacity-40 p-4 text-white shadow-md lg:w-1/3">
+		<div class="w-3/4 bg-base-300 bg-opacity-40 p-4 text-base-content shadow-md lg:w-1/3">
 			<h2 class="text-center text-2xl font-bold lg:text-6xl">
 				{content_settings.homePageBannerText.title}
 			</h2>
 			<div class="divider divider-neutral"></div>
-			<p class="text-sm">{content_settings.homePageBannerText.description}</p>
+			<p class="text-justify text-sm font-bold">
+				{content_settings.homePageBannerText.description}
+			</p>
 		</div>
 	</div>
 </div>

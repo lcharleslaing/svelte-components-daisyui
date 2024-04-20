@@ -3,7 +3,7 @@
 	import HomePageServiceCard from '$lib/components/HomePageServiceCard.svelte';
 	import ImageChangeWithOneText from '$lib/components/ImageChangeWithOneText.svelte';
 	import InspectionCard from '$lib/components/InspectionCard.svelte';
-	import RequestQuoteCard from '$lib/components/ServiceIcons.svelte';
+	import RequestQuoteCard from '$lib/components/icons_components/ServiceIcons.svelte';
 	import TgyLogo from '$lib/components/TgyLogo.svelte';
 	import { selectedTheme } from '$lib/theme';
 	import content_settings from '$lib/settings/content_settings';

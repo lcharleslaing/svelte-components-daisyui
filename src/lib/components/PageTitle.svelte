@@ -2,40 +2,32 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { selectedTheme } from '$lib/theme';
-	import TgyLogo from './TgyLogo.svelte';
 	import settings from '$lib/settings/settings';
 
 	// Extract the devmode value from the import.meta.env object
-	const devmode = import.meta.env.VITE_DEV === 'true';
+	const devmode: boolean = import.meta.env.VITE_DEV === 'true';
 
-	let pageTitle = '';
-	let currentTheme = '';
+	let pageTitle: string = '';
+	let currentTheme: string = '';
+	export let customTitle: string = '';
 
 	onMount(() => {
-		const pageName = $page.url.pathname.split('/').pop();
-		pageTitle = pageName
-			? pageName.charAt(0).toUpperCase() + pageName.slice(1)
-			: settings.businessName;
+		// Check if pathname matches any href in mainMenu and update pageTitle accordingly
+		const menuEntry = Object.entries(settings.mainMenu).find(
+			([_, value]) => value.href === $page.url.pathname
+		);
+		pageTitle = menuEntry ? menuEntry[1].title : settings.businessName;
 
-		selectedTheme.subscribe((value) => {
+		selectedTheme.subscribe((value: string) => {
 			currentTheme = value;
 			// Update document title with the selected theme
-			document.title = `${pageTitle} - ${currentTheme}`;
+			document.title = `${pageTitle}`;
 		});
 	});
 </script>
 
 <div class="mt-6 flex justify-center">
-	<div class="bg-base-300 px-6 py-2 shadow-sm">
-		<h1 class="pb-2 text-4xl font-extrabold">{pageTitle}</h1>
+	<div class="mb-3 bg-base-300 px-6 py-2 shadow-sm">
+		<h1 class="pb-1.5 text-4xl font-extrabold">{pageTitle ? customTitle : 'Custom'}</h1>
 	</div>
 </div>
-
-{#if devmode}
-	<p class="text-center text-sm font-semibold text-green-600">{currentTheme.toUpperCase()}</p>
-	<p
-		class="font-white absolute left-2 top-20 rounded-full bg-green-600 p-2 text-center text-xs font-black text-white shadow-lg"
-	>
-		DEV
-	</p>
-{/if}

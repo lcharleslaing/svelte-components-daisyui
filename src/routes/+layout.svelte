@@ -3,8 +3,8 @@
 	import '../app.pcss';
 	import Footer from '$lib/components/Navbar/Footer.svelte';
 	import { selectedTheme } from '$lib/theme';
-	import BottomNavbar from '$lib/components/BottomNavbar.svelte';
-	import NavbarLeftRightDrawers from '$lib/components/NavbarLeftRightDrawers.svelte';
+	import BottomNavbar from '$lib/components/Navbar/BottomNavbar.svelte';
+	import NavbarLeftRightDrawers from '$lib/components/Navbar/NavbarLeftRightDrawers.svelte';
 </script>
 
 <html lang="en" data-theme={$selectedTheme}>

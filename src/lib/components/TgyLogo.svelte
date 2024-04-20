@@ -6,7 +6,6 @@
 	/**
 	 * @type {any}
 	 */
-	export let width = 60;
 
 	// Update the themeColor when the selectedTheme changes
 	const unsubscribe = selectedTheme.subscribe((value) => {
@@ -19,9 +18,9 @@
 	});
 </script>
 
-<div class="w-{width} mx-auto flex h-20 items-center justify-center">
+<div class="mx-auto flex h-20 w-48 items-center justify-center">
 	<svg
-		class="h-auto text-current max-w-{width}"
+		class="h-auto text-current"
 		fill="currentColor"
 		version="1.1"
 		id="Layer_1"

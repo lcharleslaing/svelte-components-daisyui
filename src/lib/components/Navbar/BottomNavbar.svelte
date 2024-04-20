@@ -45,7 +45,7 @@
 				</g>
 			</g>
 		</svg>
-		<span class="btm-nav-label text-sm">About</span>
+		<span class="btm-nav-label text-sm">Why US</span>
 	</a>
 	<a href="/promotions" class={currentRoute === '/promotions' ? 'active' : ''}>
 		<svg
